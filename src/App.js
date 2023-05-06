@@ -1,8 +1,12 @@
 import React from 'react';
+import './App.css';
 
+import Header from './components/Layout/Header';
 const App = () => {
   return(
-    <h1>Food order App</h1>
+    <>
+      <Header/>
+    </>
   );
 }
 
